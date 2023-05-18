@@ -20,7 +20,7 @@ public class MyApplication extends Application {
 
         // 加载补丁
         try {
-//            inject(dexPath);
+            inject(dexPath);
         } catch (Exception e) {
             e.printStackTrace();
         }
